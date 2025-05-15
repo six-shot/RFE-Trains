@@ -4,7 +4,7 @@
 
 ## 🔹 PHASE 1: Data Collection & Annotation
 
-### ✅ Step 1. Collect RFE and Petition Examples
+- [x]  Step 1. Collect RFE and Petition Examples
 
 Gather as many RFE PDFs and corresponding petition letters as possible.
 
@@ -16,7 +16,7 @@ Gather as many RFE PDFs and corresponding petition letters as possible.
 
 ---
 
-### ✅ Step 2. OCR the PDFs
+- [ ]  Step 2. OCR the PDFs
 
 Use tools like **Tesseract**, **Google Document AI**, or **PDFPlumber** to extract clean text.
 
@@ -37,7 +37,7 @@ Save text in this format:
 
 ## 🔹 PHASE 2: Legal Framework Integration
 
-### ✅ Step 3. Collect Legal Texts
+- [ ]  Step 3. Collect Legal Texts
 
 Download or scrape legal documents from sources like:
 
@@ -49,7 +49,7 @@ Download or scrape legal documents from sources like:
 
 ---
 
-### ✅ Step 4. Preprocess & Structure Legal Texts
+- [ ]  Step 4. Preprocess & Structure Legal Texts
 
 - Parse text into sections or paragraphs.  
 - Store in a retrieval-friendly format (e.g., JSON or Markdown).
@@ -70,7 +70,7 @@ Example structure:
 
 ## 🔹 PHASE 3: Model Preparation & Training
 
-### ✅ Step 5. Decide on Training Architecture
+- [ ]  Step 5. Decide on Training Architecture
 
 You have two options:
 
@@ -94,7 +94,7 @@ You have two options:
 
 ## 🔹 PHASE 4: Training / Inference Code Setup
 
-### ✅ Step 6. Tokenize and Format Your Dataset
+- [ ]  Step 6. Tokenize and Format Your Dataset
 
 - Clean and truncate text to 512–1024 tokens  
 - Format as:
@@ -110,7 +110,7 @@ You have two options:
 
 ---
 
-### ✅ Step 7. Fine-Tune a Model
+- [ ]  Step 7. Fine-Tune a Model
 
 - Use **FLAN-T5**, **Mistral**, or **Gemini** via Vertex AI  
 - Use `transformers.Trainer` API or Vertex's fine-tune feature  
@@ -121,7 +121,7 @@ You have two options:
 
 ## 🔹 PHASE 5: System Pipeline & Integration
 
-### ✅ Step 8. Build the Pipeline
+- [ ]  Step 8. Build the Pipeline
 
 ```mermaid
 graph TD
@@ -142,7 +142,7 @@ graph TD
 
 ---
 
-### ✅ Step 9. Add Legal Grounding (Optional but Strongly Advised)
+- [ ]  Step 9. Add Legal Grounding (Optional but Strongly Advised)
 
 Inject legal citations into the output by retrieving relevant legal chunks.
 
@@ -157,7 +157,7 @@ Generate a petition letter based on both.
 
 
 
-### ✅ Step 10. Evaluate Output Quality
+- [ ]  Step 10. Evaluate Output Quality
 
 Have immigration lawyers or legal experts review for:
 
@@ -173,7 +173,7 @@ Include automated metrics:
 
 ---
 
-### ✅ Step 11. Deploy on Vertex AI
+- [ ]  Step 11. Deploy on Vertex AI
 
 - Upload the model and legal documents  
 - Expose an API that takes RFE PDFs and returns petition drafts  
@@ -183,7 +183,7 @@ Include automated metrics:
 
 ## 🔹 PHASE 7: Updates and Maintenance
 
-### ✅ Step 12. Keep Legal Frameworks Fresh
+- [ ]  Step 12. Keep Legal Frameworks Fresh
 
 Write scripts that:
 
