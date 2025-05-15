@@ -41,11 +41,12 @@ Save text in this format:
 
 Download or scrape legal documents from sources like:
 
-- USCIS Policy Manual  
-- 8 CFR Parts 204 & 205  
-- INA  
-- AAO Decisions  
-- *Matter of Dhanasar*, *Matter of Price*, *Kazarian v. USCIS*  
+- [USCIS Policy Manual](https://www.uscis.gov/policy-manual)  
+- [8 CFR Parts 204 & 205](https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-204)  
+- [Immigration and Nationality Act (INA)](https://www.uscis.gov/laws-and-policy/legislation/immigration-and-nationality-act)  
+- [AAO Decisions](https://www.uscis.gov/administrative-appeals/aao-decisions)  
+- *[Matter of Dhanasar](https://www.justice.gov/eoir/page/file/920036/download)*, *[Matter of Price](https://www.justice.gov/eoir/page/file/919991/download)*, *[Kazarian v. USCIS](https://casetext.com/case/kazarian-v-uscis-1)*
+
 
 ---
 
